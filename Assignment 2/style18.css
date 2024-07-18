@@ -1,0 +1,61 @@
+:root 
+{
+ --primary-color: #3498db;
+ --secondary-color: #2ecc71;
+ --font-size-medium: 16px;
+ --spacing-medium: 20px;
+}
+Body 
+{
+ Font-family: Arial, sans-serif;
+ Line-height: 1.6;
+ Margin: 0;
+ Padding: var(--spacing-medium);
+}
+Header 
+{
+ Background-color: var(--primary-color);
+ Color: white;
+ Padding: var(--spacing-medium);
+ Text-align: center;
+}
+Nav ul
+{
+ List-style-type: none;
+ Padding: 0;
+}
+Nav ul li 
+{
+ Display: inline;
+ Margin-right: var(--spacing-medium);
+}
+Nav ul li a 
+{
+ Color: white;
+ Text-decoration: none;
+}
+Main
+{
+ Display: flex;
+ Justify-content: space-around;
+ Padding: var(--spacing-medium);
+}
+Section 
+{
+ Background-color: var(--secondary-color);
+ Color: white;
+ Padding: var(--spacing-medium);
+ Border-radius: 8px;
+ Text-align: center;
+ Flex: 1;
+}
+H1, h2 
+{
+ Font-size: 2em;
+ Margin-bottom: var(--spacing-medium);
+}
+P 
+{
+ Font-size: var(--font-size-medium);
+ Line-height: 1.4;
+}

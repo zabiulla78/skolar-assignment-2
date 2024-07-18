@@ -1,0 +1,82 @@
+* {
+ Margin: 0;
+ Padding: 0;
+ Box-sizing: border-box;
+}
+Body 
+{
+ Font-family: Arial, sans-serif;
+ Background-color: #f0f0f0;
+ Padding: 20px;
+}
+H2
+{
+ Text-align: center;
+ Margin-bottom: 20px;
+}
+Form 
+{
+ Max-width: 400px;
+ Margin: 0 auto;
+ Background-color: #fff;
+ Padding: 20px;
+ Border-radius: 8px;
+ Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group
+{
+ Margin-bottom: 15px;
+}
+Label 
+{
+ Display: block;
+ Font-weight: bold;
+}
+Input[type=”text”],
+Input[type=”password”],
+Input[type=”email”],
+Button
+{
+ Width: 100%;
+ Padding: 10px;
+ Font-size: 16px;
+ Border: 1px solid #ccc;
+ Border-radius: 4px;
+}
+Input[type=”text”]:focus,
+Input[type=”password”]:focus,
+Input[type=”email”]:focus 
+{
+ Border-color: #007bff;
+ Box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+Button 
+{
+ Background-color: #007bff;
+ Color: #fff;
+ Border: none;
+ Cursor: pointer;
+ Transition: background-color 0.3s;
+}
+Button:hover 
+{
+ Background-color: #0056b3;
+}
+Button:active 
+{
+ Background-color: #0056b3;
+ Transform: translateY(1px);
+}
+Form::before 
+{
+ Content: “Please fill out the form below:”;
+ Display: block;
+ Font-size: 14px;
+ Color: #666;
+ Margin-bottom: 15px;
+}
+Button::after 
+{
+ Content: “➡”;
+ Margin-left: 5px;
+}

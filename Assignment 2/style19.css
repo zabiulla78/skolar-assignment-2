@@ -1,0 +1,36 @@
+Body
+{
+ Font-family: Arial, sans-serif;
+}
+Header
+{
+ Background-color: #343a40; /* Custom dark background */
+}
+Header h1
+{
+ Margin: 0;
+}
+Nav ul 
+{
+ Padding: 0;
+ List-style-type: none;
+}
+Nav ul li
+{
+ Display: inline-block;
+ Margin-right: 15px;
+}
+Nav ul li a 
+{
+ Color: white;
+ Text-decoration: none;
+}
+Main 
+{
+ Background-color: #f8f9fa; /* Custom light background */
+}
+Footer
+{
+ Background-color: #343a40; /* Custom dark background */
+ Color: white;
+}

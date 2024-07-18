@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+<meta charset=”UTF-8”>
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+<title>CSS Box Model Demo</title>
+<style>
+ Body {
+ Font-family: Arial, sans-serif;
+ Padding: 20px;
+ }
+ .box {
+ Width: 300px;
+ Margin: 20px;
+ Padding: 20px;
+ Border: 1px solid #333;
+ Background-color: #f0f0f0;
+ Box-sizing: border-box; /* Default to border-box for all elements */
+ }
+ .box-content {
+ Background-color: #ffffff;
+ }
+ .toggle-btn {
+ Padding: 10px 20px;
+ Background-color: #007bff;
+ Color: #ffffff;
+ Border: none;
+ Cursor: pointer;
+ Outline: none;
+ }
+ .toggle-btn:hover {
+ Background-color: #0056b3;
+ }
+</style>
+</head>
+<body>
+<div class=”box”>
+ <h2>Box Model Demo</h2>
+ <p>This box demonstrates the CSS box model:</p>
+ <div class=”box-content”>
+ <h3>Content Box</h3>
+ <p>Padding, border, and margin affect the size of this content box.</p>
+ </div>
+</div>
+<div class=”toggle-btn-container”>
+ <button class=”toggle-btn” onclick=”toggleBoxSizing()”>Toggle boxsizing</button>
+</div>
+<script>
+Function toggleBoxSizing() {
+ Var boxes = document.querySelectorAll(‘.box’);
+ Boxes.forEach(function(box) {
+ If (box.style.boxSizing === ‘content-box’) {
+ Box.style.boxSizing = ‘border-box’;
+ } else {
+ Box.style.boxSizing = ‘content-box’;
+ }
+ });
+}
+</script>
+</body>
+</html>

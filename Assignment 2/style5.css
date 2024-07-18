@@ -1,0 +1,28 @@
+body 
+{
+ Font-family: Arial, sans-serif;
+ Margin: 0;
+ Display: flex;
+ Justify-content: center;
+ Align-items: center;
+ Height: 100vh;
+}
+.container 
+{
+ Display: flex;
+ Justify-content: space-between;
+ Align-items: center;
+ Width: 80%;
+ Max-width: 800px;
+ Background-color: #f0f0f0;
+ Padding: 20px;
+ Border-radius: 8px;
+}
+.item 
+{
+ Background-color: #3498db;
+ Color: white;
+ Font-size: 18px;
+ Padding: 15px;
+ Border-radius: 5px;
+}

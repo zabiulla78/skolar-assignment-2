@@ -1,0 +1,33 @@
+p
+{
+ Font-family: Arial, sans-serif;
+ Color: #333;
+ Margin-bottom: 10px;
+}
+.important 
+{
+ Font-weight: bold;
+}
+#unique 
+{
+ Background-color: lightblue;
+ Padding: 10px;
+}
+A[href=https://www.example.com] 
+{
+ Color: blue;
+ Text-decoration: none;
+}
+A:hover 
+{
+ Text-decoration: underline;
+}
+Li::before
+{
+ Content: “• “;
+ Color: red;
+}
+.highlight 
+{
+ Color: green;
+ Text-decoration:underline;

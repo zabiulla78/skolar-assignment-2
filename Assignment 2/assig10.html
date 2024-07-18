@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <header class="header">Responsive Images</header>
+    <main class="main-content">
+        <picture>
+            <source srcset="images/image-small.jpg 480w, images/image-medium.jpg 800w, images/image-large.jpg 1200w"
+                    sizes="(max-width: 600px) 480px, 
+                           (max-width: 900px) 800px, 
+                           1200px">
+            <img src="images/image-large.jpg" alt="Sample Image" class="responsive-image">
+        </picture>
+    </main>
+    <footer class="footer">Footer</footer>
+</body>
+</html>

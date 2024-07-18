@@ -1,0 +1,68 @@
+body 
+{
+ Font-family: Arial, sans-serif;
+ Background-color: #f0f0f0;
+ Margin: 0;
+ Padding: 0;
+}
+.container 
+{
+ Max-width: 800px;
+ Margin: 20px auto;
+ Background-color: #fff;
+ Padding: 20px;
+ Border-radius: 8px;
+ Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+H1, h2, p 
+{
+ Margin-top: 0;
+}
+.typography-examples
+{
+ Display: grid;
+ Grid-template-columns: repeat(3, 1fr);
+ Gap: 20px;
+}
+.text-example 
+{
+ Padding: 20px;
+ Background-color: #f9f9f9;
+ Border: 1px solid #ddd;
+ Border-radius: 4px;
+ Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.font-example 
+{
+ Margin: 0;
+}
+.text-example:nth-child(1) .font-example 
+{
+ Font-family: “Arial”, sans-serif;
+ Font-size: 18px;
+}
+.text-example:nth-child(1) h2 
+{
+ Font-size: 1.5em;
+ Margin-bottom: 10px;
+}
+.text-example:nth-child(2) .font-example
+{
+ Font-weight: bold;
+ Font-style: italic;
+}
+.text-example:nth-child(2) h2 
+{
+ Font-size: 1.5em;
+ Margin-bottom: 10px;
+}
+.text-example:nth-child(3) .font-example 
+{
+ Line-height: 1.6;
+ Text-transform: uppercase;
+}
+.text-example:nth-child(3) h2 
+{
+ Font-size: 1.5em;
+ Margin-bottom: 10px;
+}

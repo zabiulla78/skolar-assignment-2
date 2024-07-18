@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+ <meta charset=”UTF-8”>
+ <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+ <title>Styled Forms</title>
+ <link rel=”stylesheet” href=”style17.css”>
+</head>
+<body>
+ <h1>Styled Forms</h1>
+ <form action=”#”>
+ <div class=”form-group”>
+ <label for=”name”>Name:</label>
+ <input type=”text” id=”name” name=”name” required>
+ </div>
+ <div class=”form-group”>
+ <label for=”email”>Email:</label>
+ <input type=”email” id=”email” name=”email” required>
+ </div>
+ <div class=”form-group”>
+ <label for=”gender”>Gender:</label><br>
+ <input type=”radio” id=”male” name=”gender” value=”male”>
+ <label for=”male”>Male</label><br>
+ <input type=”radio” id=”female” name=”gender” value=”female”>
+ <label for=”female”>Female</label><br>
+ <input type=”radio” id=”other” name=”gender” value=”other”>
+ <label for=”other”>Other</label>
+ </div>
+ <div class=”form-group”>
+ <label for=”country”>Country:</label>
+ <select id=”country” name=”country”>
+ <option value=”usa”>USA</option>
+ <option value=”canada”>Canada</option>
+ <option value=”uk”>UK</option>
+ <option value=”australia”>Australia</option>
+ </select>
+ </div>
+ <div class=”form-group”>
+ <label for=”terms”>
+ <input type=”checkbox” id=”terms” name=”terms” required>
+ I agree to the terms and conditions
+ </label>
+ </div>
+ <button type=”submit”>Submit</button>
+ </form>
+</body>
+</html>

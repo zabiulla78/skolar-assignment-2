@@ -1,0 +1,73 @@
+body 
+{
+ Font-family: Arial, sans-serif;
+ Line-height: 1.6;
+ Padding: 20px;
+}
+H1 
+{
+ Text-align: center;
+}
+Form 
+{
+ Max-width: 600px;
+ Margin: 0 auto;
+ Background-color: #f9f9f9;
+ Padding: 20px;
+ Border-radius: 8px;
+ Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group 
+{
+ Margin-bottom: 15px;
+}
+Label 
+{
+ Font-weight: bold;
+}
+Input[type=”text”],
+Input[type=”email”],
+Select 
+{
+ Width: calc(100% - 20px);
+ Padding: 10px;
+ Border: 1px solid #ccc;
+ Border-radius: 4px;
+ Font-size: 16px;
+}
+Input[type=”checkbox”],
+Input[type=”radio”] {
+ Margin-right: 5px;
+}
+Button {
+ Background-color: #4CAF50;
+ Color: white;
+ Padding: 12px 20px;
+ Border: none;
+ Border-radius: 4px;
+ Cursor: pointer;
+ Font-size: 16px;
+}
+Button:hover 
+{
+ Background-color: #45a049;
+}
+Input:focus,
+Select:focus,
+Textarea:focus,
+Button:focus 
+{
+ Outline: none;
+ Border-color: #4CAF50;
+ Box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+Input:invalid,
+Textarea:invalid 
+{
+ Border-color: #ff7b7b;
+}
+Input:invalid:focus,
+Textarea:invalid:focus 
+{
+ Box-shadow: 0 0 5px rgba(255, 123, 123, 0.7);
+}
